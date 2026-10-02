@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    padding: 24px;
+    background: #f1f5f9;
+    color: #172033;
+    font-family: Arial, sans-serif;
+}
+
+.welcome-card {
+    width: min(100%, 420px);
+    padding: 40px;
+    border-radius: 16px;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0 12px 35px rgb(15 23 42 / 10%);
+}
+
+.welcome-card p {
+    margin-bottom: 24px;
+    color: #64748b;
+}
+
+.welcome-card a {
+    display: inline-block;
+    padding: 12px 20px;
+    border-radius: 8px;
+    background: #2563eb;
+    color: #fff;
+    text-decoration: none;
+}
+
+.welcome-card a:hover {
+    background: #1d4ed8;
+}

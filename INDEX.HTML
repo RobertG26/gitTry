@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="login-card">
+        <h1>Welcome back</h1>
+        <p class="subtitle">Sign in to your account</p>
+
+        <form action="#" method="post">
+            <label for="email">Email address</label>
+            <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="you@example.com"
+                autocomplete="email"
+                required
+            >
+
+            <label for="password">Password</label>
+            <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Enter your password"
+                autocomplete="current-password"
+                required
+            >
+
+            <div class="form-options">
+                <label class="remember">
+                    <input type="checkbox" name="remember">
+                    Remember me
+                </label>
+                <a href="welcome.html">Forgot password?</a>
+            </div>
+
+            <button type="submit">Sign in</button>
+        </form>
+
+        <p class="signup">Don't have an account? <a href="#">Sign up</a></p>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
