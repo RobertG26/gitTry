@@ -20,6 +20,9 @@ body {
     background: #fff;
     text-align: center;
     box-shadow: 0 12px 35px rgb(15 23 42 / 10%);
+    margin-bottom: 24px;
+    float: left;
+    margin-right: 24px;
 }
 
 .welcome-card p {
@@ -34,8 +37,12 @@ body {
     background: #2563eb;
     color: #fff;
     text-decoration: none;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .welcome-card a:hover {
     background: #1d4ed8;
 }
+
+

@@ -5,3 +5,5 @@ form.addEventListener("submit", (event) => {
     event.preventDefault();
     window.location.href = "welcome.html";
 });
+
+const logoutButton = document.getElementById("logoutButton");
